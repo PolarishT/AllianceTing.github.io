@@ -1,9 +1,96 @@
+
 #web_bg {
-    background-image: url('https://ae01.alicdn.com/kf/H18a4b998752a4ae68b8e85d432a5aef0l.png'),
-    linear-gradient(
-            60deg,
-            rgba(255, 165, 150, 0.5) 5%,
-            rgba(0, 228, 255, 0.35)
-    ),
-    url('https://ae01.alicdn.com/kf/H21b5f6b8496141a1979a33666e1074d9x.jpg');
+    background: -webkit-linear-gradient(
+            0deg,
+            rgba(247, 149, 51, 0.1) 0,
+            rgba(243, 112, 85, 0.1) 15%,
+            rgba(239, 78, 123, 0.1) 30%,
+            rgba(161, 102, 171, 0.1) 44%,
+            rgba(80, 115, 184, 0.1) 58%,
+            rgba(16, 152, 173, 0.1) 72%,
+            rgba(7, 179, 155, 0.1) 86%,
+            rgba(109, 186, 130, 0.1) 100%
+    );
+    background: -moz-linear-gradient(
+            0deg,
+            rgba(247, 149, 51, 0.1) 0,
+            rgba(243, 112, 85, 0.1) 15%,
+            rgba(239, 78, 123, 0.1) 30%,
+            rgba(161, 102, 171, 0.1) 44%,
+            rgba(80, 115, 184, 0.1) 58%,
+            rgba(16, 152, 173, 0.1) 72%,
+            rgba(7, 179, 155, 0.1) 86%,
+            rgba(109, 186, 130, 0.1) 100%
+    );
+    background: -o-linear-gradient(
+            0deg,
+            rgba(247, 149, 51, 0.1) 0,
+            rgba(243, 112, 85, 0.1) 15%,
+            rgba(239, 78, 123, 0.1) 30%,
+            rgba(161, 102, 171, 0.1) 44%,
+            rgba(80, 115, 184, 0.1) 58%,
+            rgba(16, 152, 173, 0.1) 72%,
+            rgba(7, 179, 155, 0.1) 86%,
+            rgba(109, 186, 130, 0.1) 100%
+    );
+    background: -ms-linear-gradient(
+            0deg,
+            rgba(247, 149, 51, 0.1) 0,
+            rgba(243, 112, 85, 0.1) 15%,
+            rgba(239, 78, 123, 0.1) 30%,
+            rgba(161, 102, 171, 0.1) 44%,
+            rgba(80, 115, 184, 0.1) 58%,
+            rgba(16, 152, 173, 0.1) 72%,
+            rgba(7, 179, 155, 0.1) 86%,
+            rgba(109, 186, 130, 0.1) 100%
+    );
+    background: linear-gradient(
+            90deg,
+            rgba(247, 149, 51, 0.1) 0,
+            rgba(243, 112, 85, 0.1) 15%,
+            rgba(239, 78, 123, 0.1) 30%,
+            rgba(161, 102, 171, 0.1) 44%,
+            rgba(80, 115, 184, 0.1) 58%,
+            rgba(16, 152, 173, 0.1) 72%,
+            rgba(7, 179, 155, 0.1) 86%,
+            rgba(109, 186, 130, 0.1) 100%
+    );
+}
+
+/* 全局默认鼠标指针 */
+body,
+html{
+    cursor: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/arrow.cur'),auto !important;
+}
+/* 悬停图片时的鼠标指针 */
+img{
+    cursor: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/btn.cur'),auto !important;
+}
+/* 选择链接标签时的鼠标指针 */
+a:hover{
+    cursor: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/link.cur'),auto;
+}
+/* 选中输入框时的鼠标指针 */
+input:hover{
+    cursor: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/input.cur'),auto;
+}
+/* 悬停按钮时的鼠标指针 */
+button:hover{
+    cursor: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/btn.cur'),auto;
+}
+/* 悬停列表标签时的鼠标指针 */
+i:hover{
+    cursor: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/link.cur'),auto;
+}
+/* 悬停页脚链接标签（例如页脚徽标）时的鼠标指针 */
+#footer-wrap a:hover{
+    cursor: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/hf.cur'),auto;
+}
+/* 悬停页码时的鼠标指针 */
+#pagination .page-number:hover{
+    cursor: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/i.cur'),auto;
+}
+/* 悬停菜单栏时的鼠标指针 */
+#nav .site-page:hover{
+    cursor: url('https://cdn.jsdelivr.net/npm/akilar-candyassets/cur/hf.cur'),auto;
 }
